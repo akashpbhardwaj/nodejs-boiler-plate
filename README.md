@@ -21,9 +21,10 @@ This is a boilerplate for building RESTful APIs using Node.js, Express, and Mong
    Install the dependencies:
    ```
 
-sh
-Copy code
+```sh
 npm install
+```
+
 Create a .env file in the root of the project and add your MongoDB connection string:
 
 env
@@ -33,17 +34,19 @@ PORT=5000
 Running the Application
 Start the server in development mode:
 
-sh
+```sh
 Copy code
 npm run dev
 Start the server in production mode:
+```
 
-sh
-Copy code
+```sh
 npm start
+```
+
 Project Structure
-lua
-Copy code
+
+```sh
 node-mongo-boilerplate
 ├── config
 │ └── db.js
@@ -59,8 +62,11 @@ node-mongo-boilerplate
 ├── server.js
 ├── app.js
 └── README.md
+```
+
 API Endpoints
 GET /api/examples - Get all examples
 POST /api/examples - Create a new example
+
 License
 This project is licensed under the MIT License.
